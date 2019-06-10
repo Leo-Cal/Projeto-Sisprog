@@ -57,9 +57,3 @@ class Motor():
         mnemonic = self.fetcher.get(memoria.memory[self.pc])
         func = self.instruction.get(mnemonic)
         func(self,memoria)
-
-
-
-
-
-
